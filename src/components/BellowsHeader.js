@@ -1,16 +1,17 @@
 import React from 'react'
+import '../assets/styles/bellowsHeader.css';
+import BellowsNavbar from './BellowsNavbar';
 
-function Footer() {
+function BellowsHeader() {
 
     return (
-        <div className="card text-center">
-            <div className="card-body">
-                <h5 className="card-title">Marcus Paccapaniccia</h5>
-                <p className="card-text">&copy; 2023</p>
+        <header className="py-5">
+            <div>
+                
+                <BellowsNavbar />
             </div>
-
-        </div>
+        </header>
     );
 }
 
-export default Footer;
+export default BellowsHeader;

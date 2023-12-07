@@ -5,6 +5,7 @@ import BellowsFooter from './components/BellowsFooter';
 import BellowsHeader from './components/BellowsHeader';
 
 import Bellows from './pages/Bellows';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
       <div>
 
         <Routes>
+        <Route
+            path="/"
+            element={<LandingPage />}
+          />
           <Route
             path="/bellows"
             element={<Bellows />}

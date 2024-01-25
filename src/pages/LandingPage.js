@@ -4,9 +4,11 @@ import BackgroundImage from "../assets/images/placeholder1.jpg"
 function LandingPage() {
 
     return (
-        <div style={{ backgroundImage: `url(${BackgroundImage})`, height: "100px"}}
-        >
+        <div >
+            <body style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh'}}>
             test
+            </body>
+            
         </div>
     );
 }

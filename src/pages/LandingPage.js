@@ -1,6 +1,7 @@
 import React from 'react';
 import BackgroundImage from "../assets/images/placeholder1.jpg"
 import TheForgeHeader from "../components/TheForgeHeader"
+import TheForgeAbout from "../components/TheForgeAbout";
 
 function LandingPage() {
 
@@ -8,7 +9,7 @@ function LandingPage() {
         <div >
             <body style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh'}}>
                 <TheForgeHeader />
-            test
+                <TheForgeAbout />
             </body>
             
         </div>

@@ -1,15 +1,18 @@
 import React from 'react';
-import BackgroundImage from "../assets/images/placeholder1.jpg"
-import TheForgeHeader from "../components/TheForgeHeader"
+import TheForgeHeader from "../components/TheForgeHeader";
 import TheForgeAbout from "../components/TheForgeAbout";
+import TheForgeHours from "../components/TheForgeHours";
+import TheForgeContact from "../components/TheForgeContact";
 
 function LandingPage() {
 
     return (
         <div >
-            <body style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100vw', height: '100vh'}}>
+            <body className='bg-dark'>
                 <TheForgeHeader />
                 <TheForgeAbout />
+                <TheForgeHours />
+                <TheForgeContact />
             </body>
             
         </div>

@@ -6,6 +6,8 @@ import BellowsHeader from './components/BellowsHeader';
 
 import Bellows from './pages/Bellows';
 import LandingPage from './pages/LandingPage';
+import TheForgeKCContact from './pages/TheForgeKCContact';
+import TheForgeKCPrivateEvents from './pages/TheForgeKCPrivateEvents';
 
 function App() {
   return (
@@ -17,6 +19,14 @@ function App() {
         <Route
             path="/"
             element={<LandingPage />}
+          />
+        <Route
+            path="/contact"
+            element={<TheForgeKCContact />}
+          />
+        <Route
+            path="/privateEvents"
+            element={<TheForgeKCPrivateEvents />}
           />
           <Route
             path="/bellows"

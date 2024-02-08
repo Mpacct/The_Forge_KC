@@ -9,8 +9,9 @@ function ForgeContact() {
                 <div className='col-6'>
                     <h1>Private Events</h1>
                     <p>Sample text about private events!</p>
-                    <Link to="/privateEvents"><button type="button" className="btn btn-secondary">Book Now</button></Link>
+                    <Link to="/contact"><button type="button" className="btn btn-secondary">Book Now</button></Link>
                 </div>
+                
                 <div className='col-6'>
                     <h1>Contact Us</h1>
                     <p>Sample text about contacting!</p>
